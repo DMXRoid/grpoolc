@@ -4,9 +4,9 @@ A simple library to allow for pooling of gRPC connections in a way that takes ad
 
 ## Usage 
 
-```
+```go
 import (
-	"github.com/DMXRoid//grpoolc"
+	"github.com/DMXRoid/grpoolc"
 	"google.golang.org/grpc"
 	"golang.org/x/net/context"
 	"fmt"
